@@ -260,7 +260,7 @@ function nav_span(){
        </div><!-- /. wrap -->
        <br><br>
        <div class="reservation_form">
-         <form action="makereservation.do" method="POST">
+         <form action="makeReservationForm.jsp" method="POST">
          <input type="text" id="year"/>
          <input type="text" id="month"/>
          <input type="text" id="date"/>
