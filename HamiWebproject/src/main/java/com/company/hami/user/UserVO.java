@@ -7,8 +7,8 @@ public class UserVO {
 	//private String name;
 	private String email;
 	//private String address;
-	private String address1;	//zipcode에서 가져오는 주소 ex) 서울 중랑구 면목2동 131∼142번지 
-	private String address2;	//상세 주소 ex) 서일대학교 호천관 807호
+	private String address1;	//zipcode에서 가져오는 주소 ex) 서울 중랑구 면목8동 서일대학
+	private String address2;	//상세 주소 ex) 서일대학교 호천관 1004호
 	private int rank;
 	
 	//setter,getter 메소드 구현
