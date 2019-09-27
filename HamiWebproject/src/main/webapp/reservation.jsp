@@ -109,6 +109,48 @@ float: right;
 background: #f5f5f5;
 color: #666;
 }
+#time_wrap{
+  margin-top:15px;
+  width:696px;
+  border:1px solid #ddd;
+  padding:5px;
+  text-align:center;
+}
+#time_wrap .lab_wrap{
+  width:100%;
+  padding-bottom:20px;
+  display:table;
+}
+.time_label{
+  display:table-cell;
+  text-align:left;
+  padding-left:20px;
+}
+.time_small_lab{
+  display:table-cell;
+  text-align:right;
+  text-indent:20px;
+  padding-right:10px;
+}
+#time_btn{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  font-size:12px;
+}
+#time_btn li{
+  border: 1px solid #ddd;
+  float:left;
+  padding:10px;
+}
+.time_label{
+  font-size:15px;
+}
+.time_small_lab{
+  font-size:12px;
+}
+
 /* ============================
       Mobile Responsiveness
  ============================*/
@@ -257,6 +299,24 @@ function nav_span(){
              <% }
                %>
            </div><!-- /. calendar -->
+	  <div id="time_wrap">
+             <div class="lab_wrap">
+                <p class="time_label">예약 현황</p>
+                <p class="time_small_lab"><span>ㅇ</span>냠냠이<span>ㅇ</span>냠냠이</p>
+              </div>
+             <ul id="time_btn">
+               <li>10:00~</li>
+               <li>11:00~</li>
+               <li>12:00~</li>
+               <li>13:00~</li>
+               <li>14:00~</li>
+               <li>15:00~</li>
+               <li>16:00~</li>
+               <li>17:00~</li>
+               <li>18:00~</li>
+               <li>19:00~</li>
+             </ul>
+           </div><!-- /. timewrap -->
        </div><!-- /. wrap -->
        <br><br>
        <div class="reservation_form">
