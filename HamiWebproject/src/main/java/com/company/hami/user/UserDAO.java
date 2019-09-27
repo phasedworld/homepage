@@ -58,7 +58,7 @@ public class UserDAO {
 		    	  
 		    	  try {
 		    		  //해킹 대비=> PreparedStatement 방식으로 구현한다.
-		    		  String ConfirmId_SELECT = "select id from member where id=?";
+		    		  String ConfirmId_SELECT = "select id from user where id=?";
 
 			    	  conn= JDBCUtil.getConnection();
 		    		  pstmt = conn.prepareStatement(ConfirmId_SELECT);
