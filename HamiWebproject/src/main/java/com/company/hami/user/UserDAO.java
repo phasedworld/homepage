@@ -22,7 +22,7 @@ public class UserDAO {
 	
 	//SQL 명령어
 			private final String USER_GET = "select * from user where id=? and passwd=?";
-			private final String Member_Insert = "insert into user(id, passwd, email, zipcode, address1, address2)values(?,?,?,?,?,?)";
+			private final String Member_Insert = "insert into user(id, passwd, email, zipcode, address1, address2, rank)values(?,?,?,?,?,?,1)";
 			
 			//사용자 정의 메소드
 			public UserVO getUser(UserVO vo) {
