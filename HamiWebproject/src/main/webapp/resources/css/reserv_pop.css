@@ -1,0 +1,118 @@
+@charset "EUC-KR";
+#info{
+  margin-bottom:20px;
+  margin-top:80px;
+  margin-left:160px;
+  margin-right:200px;
+  width:380px;
+}
+ .info{
+   border: 1px solid black;
+   font-size: 16px;
+   text-align: center;
+  }
+h1 { text-align: center;
+     font-size: 40px;}
+
+ul li {list-style: none;}
+
+#bookingForm{
+	padding-left:100px;	
+	margin-left:60px;
+	margin-right:200px;
+}
+#bookingForm input {
+    width:400;
+    height:40px;
+    border:none;
+    border-bottom:1px solid #000;
+    line-height: 40px;
+  }
+.res_wrap{ 
+	position:relative;	
+}
+.bookForm_wrap{
+	width: 700px;
+	height: auto;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.bookForm_wrap{
+	background:white;
+	border: 1px solid #ddd;
+	box-shadow:15px 15px 15px #BDBDBD;
+	float:left;
+	margin: 0 140px;
+}
+<!--Ãß°¡css -->
+#loginForm, #signinForm{
+  width:500px;
+  display:table-cell;
+  text-align:center;
+}
+
+.form_wrap{
+  padding-top:20px;
+  padding-bottom:50px;
+}
+.input_wrap{
+  margin:0 auto;
+  margin-bottom:20px;
+  background-color:#eff4e7;
+  width:230px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.input_textarea{
+  margin:0 auto;
+  margin-bottom:20px;
+  background-color:#eff4e7;
+  width:230px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+} 
+textarea{
+border:none;
+width:100%;
+background-color:#eff4e7;
+overflow:auto;
+}
+.input_wrap input{
+  width:100%;
+  background-color:#eff4e7;
+  border:none;
+}
+select{
+border:none;
+background-color:#eff4e7;
+color:#555;
+}
+#bookForm_header{
+  line-height:30px;
+}
+.info_text{
+  padding-top:30px;
+  padding-bottom:10px;
+  line-height:25px;
+  text-align:center;
+}
+.rsvt{
+	text-align:center;
+}
+.rsvt button{
+  font-family:sans-serif;
+  border:none;
+  background-color:#F9D3C0;
+  color:black;
+  font-size:15px;
+  width:250px;
+  padding-top:10px;
+  padding-bottom:10px; 
+  margin-top:15px;
+  margin-bottom:50px;
+}
