@@ -67,7 +67,7 @@ function nav_span(){
           <h1 id="signin_header">아직 해미의<br>회원이 아니신가요?</h1>
         </div>
         <div class="login">
-          <input type="submit" class="signin_btn" value="회원 가입">
+          <input type="submit" class="signin_btn" onClick="location.href='Join.jsp';" value="회원 가입" ><!--회원가입 페이지로 이동!-->
       </div>
     </div>
 </div>
